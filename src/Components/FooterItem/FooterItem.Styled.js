@@ -10,4 +10,7 @@ export const FooterItemStyled = styled.li`
     font-family: "Poppins", sans-serif;
     cursor: pointer;
   }
+  :hover {
+    color: #ddd;
+  }
 `;

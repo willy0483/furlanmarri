@@ -5,7 +5,7 @@ export const WhatsNewStyled = styled.section`
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
   width: 1000px;
-  margin: 2.5rem auto 0 auto;
+  margin: 6.5rem auto 0 auto;
 
   h3 {
     font-size: 0.9rem;
