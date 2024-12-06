@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const ImageContainer = styled.div`
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
   margin: 0 2rem;
   figure {
@@ -16,6 +18,9 @@ export const ImageContainer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
+
+      width: 500px;
+      height: 300px;
 
       img {
         transition: transform 0.3s ease;

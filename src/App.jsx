@@ -1,7 +1,6 @@
 import "./App.scss";
 
 import HeaderComponent from "./Components/Header/Header";
-import WhatsNewComponent from "./Components/WhatsNew/WhatsNew";
 import FooterComponent from "./Components/Footer/Footer";
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
