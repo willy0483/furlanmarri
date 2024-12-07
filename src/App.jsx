@@ -28,19 +28,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-function App() {
-  return (
-    <>
-      <HeaderComponent />
-      <Main>
-        <WhatsNewComponent />
-      </Main>
-      <FooterComponent />
-    </>
-  );
-}
-
-*/
