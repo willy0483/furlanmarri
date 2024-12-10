@@ -3,17 +3,22 @@ import "./App.scss";
 import HeaderComponent from "./Components/Header/Header";
 import FooterComponent from "./Components/Footer/Footer";
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Main } from "./Components/Main/Main";
 
 import { Home } from "./Pages/Home";
 import { Collection } from "./Pages/Collection";
 
+
+
+// link i WhatsNewButton
+
+
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <HeaderComponent />
         <Main>
           <Routes>
@@ -22,7 +27,7 @@ function App() {
           </Routes>
         </Main>
         <FooterComponent />
-      </Router>
+      </BrowserRouter>
     </>
   );
 }

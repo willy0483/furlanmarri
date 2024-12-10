@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 2rem;
-  margin: 0 2rem;
+  padding: 2rem;
+
   figure {
     position: relative;
     overflow: hidden;
@@ -19,8 +19,8 @@ export const ImageContainer = styled.div`
       justify-content: center;
       align-items: center;
 
-      width: 500px;
-      height: 300px;
+      max-width: 500px;
+      max-height: 300px;
 
       img {
         transition: transform 0.3s ease;
